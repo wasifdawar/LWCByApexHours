@@ -23,3 +23,5 @@ export default class GetterExpression extends LightningElement {
         return `${this.firstName} ${this.lastName}`.toUpperCase();
     }
 }
+
+//Lecture 2 of Apex Hours LWC Series

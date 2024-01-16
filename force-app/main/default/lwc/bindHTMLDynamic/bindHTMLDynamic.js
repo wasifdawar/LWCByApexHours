@@ -7,3 +7,5 @@ export default class BindHTMLDynamic extends LightningElement {
         this.myValue = event.target.value;
     }
 }
+
+//Lecture 2 of Apex Hours LWC Series

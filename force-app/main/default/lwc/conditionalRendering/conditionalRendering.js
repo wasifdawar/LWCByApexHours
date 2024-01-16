@@ -7,3 +7,5 @@ export default class ConditionalRendering extends LightningElement {
         this.showMe = event.target.checked;
     }
 }
+
+//Lecture 2 of Apex Hours LWC Series
