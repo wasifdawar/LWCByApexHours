@@ -1,8 +1,7 @@
 <template>
     <lightning-card  variant="Narrow"  title="Conditional Rendering Elements " icon-name="standard:account">
-        <lightning-button-icon  icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
-        <p class="slds-p-horizontal_small">Hello, {upperCaseName}!</p>
-        <br/>
+        <div class="slds-p-left_small">
+                <br/>
         <lightning-input type="checkbox" label="Click Me" name="clickme" onchange={handleChange}></lightning-input>
         <template if:true={showMe}>
            I'm Visible...!
@@ -11,5 +10,6 @@
         <template if:false={showMe}>
             I'm not Visible...!
          </template>
+        </div>
     </lightning-card>
 </template>
