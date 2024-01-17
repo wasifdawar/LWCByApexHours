@@ -1,7 +1,8 @@
 import { LightningElement } from 'lwc';
 
 export default class LifecycleHooks extends LightningElement 
-{ 
+{  
+    
     myList = [];
   constructor()
   {
@@ -20,4 +21,10 @@ export default class LifecycleHooks extends LightningElement
     console.log("Disconnected CallBack");
     this.myList = [];
   }
+   renderedCallback()
+    {
+      console.log("Rendered CallBack");
+    }
+
+  
 }
