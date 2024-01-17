@@ -1,3 +1,9 @@
 <template>
-    
+    <lightning-card  title="I'm Parent with API Property">
+        
+        <lightning-input  type="number" value={percentage} onchange={handleOnChange}></lightning-input>
+    </br>
+    <c-childofp2cusingapi percentage={percentage}></c-childofp2cusingapi>
+        
+    </lightning-card>
 </template>
