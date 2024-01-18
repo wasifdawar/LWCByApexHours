@@ -1,3 +1,11 @@
-import { LightningElement } from 'lwc';
+import { LightningElement,api } from 'lwc';
 
-export default class Childofp2cusingfunction extends LightningElement {}
+export default class Childofp2cusingfunction extends LightningElement {
+    timestamp = new Date();
+     
+    @api
+    refresh()
+    {
+        this.timestamp = new Date();
+    }
+}
