@@ -1,3 +1,11 @@
 <template>
-    
+    <lightning-card  title="I'm Listening">
+        
+        <div class="slds-var-m-around_medium">
+            Count of clicks: {count} 
+            <br/>
+            <c-child-component-communication onincreasecount={handleEventChange}></c-child-component-communication>
+            </div>
+        
+    </lightning-card>
 </template>
