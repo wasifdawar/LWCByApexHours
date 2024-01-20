@@ -1,3 +1,6 @@
-<aura:component>
+<aura:component implements="flexpage:availableForAllPageTypes"> 
+    <lightning-card title="AURA Hello World" icon-name="custom:custom14">
+
+    </lightning-card>
 
 </aura:component>	
