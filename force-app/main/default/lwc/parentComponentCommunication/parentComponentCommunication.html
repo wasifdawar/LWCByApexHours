@@ -2,6 +2,8 @@
     <lightning-card  title="I'm Listening">
         
         <div class="slds-var-m-around_medium">
+            Messgae from Child Component: {mesg}
+            <br/>
             Count of clicks: {count} 
             <br/>
             <c-child-component-communication onincreasecount={handleEventChange}></c-child-component-communication>
