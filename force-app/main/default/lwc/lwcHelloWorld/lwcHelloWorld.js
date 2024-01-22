@@ -1,5 +1,5 @@
-import { LightningElement } from 'lwc';
+import { LightningElement,api } from 'lwc';
 
 export default class LwcHelloWorld extends LightningElement {
-    name = "Wasif Dawar";
+    @api name = "Wasif Dawar!";
 }
