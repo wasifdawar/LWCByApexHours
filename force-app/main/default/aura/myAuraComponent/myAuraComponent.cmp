@@ -2,5 +2,6 @@
     <lightning:card title="AURA Hello World" iconName="custom:custom14">
 
     </lightning:card>
+    <c:lwcHelloWorld/>
 
 </aura:component>	
