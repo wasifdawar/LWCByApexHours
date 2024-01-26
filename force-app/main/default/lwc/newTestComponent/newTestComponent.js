@@ -1,3 +1,8 @@
 import { LightningElement } from 'lwc';
 
-export default class NewTestComponent extends LightningElement {}
+export default class NewTestComponent extends LightningElement {
+    test(event)
+    {
+        
+    } 
+}
